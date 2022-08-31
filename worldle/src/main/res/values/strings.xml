@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Wordle Game</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="guess_title">GUESS THE WORD</string>
+    <string name="login">Login</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Your passcode</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="have_no_account_register_account">Have_no_account_Register_account</string>
+    <string name="email">Your email address</string>
+    <string name="register_account"> REGISTER AN WORDLE ACCOUNT</string>
+    <string name="create_new_account">Create a new account</string>
+    <string name="full_name">Your full names</string>
+    <string name="phone">Your phone number</string>
+    <string name="register">Register</string>
+    <string name="already_registered_login_here">Already registered login here</string>
+    <string-array name="files">
+        <item>File 1</item>
+        <item>File 2</item>
+    </string-array>
+</resources>

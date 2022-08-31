@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549356160933",
+    "project_id": "assignment-3be81",
+    "storage_bucket": "assignment-3be81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549356160933:android:6949ba25b40002f6000a4c",
+        "android_client_info": {
+          "package_name": "com.example.wordle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549356160933-rch1ahdumsj2tl1218s3a1m69ndim4cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNfuNrC__aaLVF13uBwMoa2MLr8yJmpW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549356160933-rch1ahdumsj2tl1218s3a1m69ndim4cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

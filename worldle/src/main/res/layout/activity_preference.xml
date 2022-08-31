@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    tools:context=".Preference">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="W"
+                android:layout_margin="2sp"
+                android:background="@drawable/custom_initial_title"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2sp"
+                android:textAlignment="center"
+                android:background="@drawable/custom_initial_title"
+                android:text="O"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_initial_title"
+                android:textAlignment="center"
+                android:layout_margin="2sp"
+                android:text="R"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_initial_title"
+                android:layout_margin="2sp"
+                android:textAlignment="center"
+                android:text="D"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@drawable/custom_initial_title"
+                android:layout_margin="2sp"
+                android:text="L"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2sp"
+                android:textAlignment="center"
+                android:background="@drawable/custom_initial_title"
+                android:text="E"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_initial_title"
+                android:layout_margin="2sp"
+                android:textAlignment="center"
+                android:text="!"
+                android:textSize="40sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30sp"
+            >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHOOSE FILE"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+
+
+            <RadioGroup
+                android:id="@+id/files"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+                <RadioButton
+                    android:id="@+id/file1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"
+                    android:text="File 1"
+                    />
+                <RadioButton
+                    android:id="@+id/file2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"
+                    android:text="File 2"
+                    />
+
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="ENTER PLAYR'S NAME"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+
+            <EditText
+
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:id="@+id/userName"
+                android:background="@drawable/custom_username_input"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20sp"
+
+                android:layout_marginBottom="40sp"
+                />
+
+            <Button
+                android:id="@+id/updatePrefs"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="UPDATE PREFERENCE"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:layout_marginBottom="30sp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
